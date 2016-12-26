@@ -1,0 +1,4 @@
+import numpy as np
+for t in xrange(input()):
+	input()
+	print sum(np.matrix(map(int,raw_input().split()))+np.matrix(map(int,raw_input().split())))
